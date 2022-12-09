@@ -1,22 +1,3 @@
-# jgf-dot
-Convert a [json graph](https://github.com/jsongraph/json-graph-specification) into a dot file for use with Graphviz and other visualizers
-
-## Command line
-Install [nodejs](https://nodejs.org/) and run:
-
-```bash
-npm install -g jgf-dot
-```
-
-Then you can do the conversion using either:
-
-```bash
-cat graph.json | jgfdot > graph.dot
-jgfdot graph.json > graph.dot
-```
-
-### `jgfdot`
-Reads a json graph from `STDIN` or `file_name` and outputs the Dot file to `STDOUT`
 
 ## Docker
 Install [docker](https://www.docker.com/) and run:
